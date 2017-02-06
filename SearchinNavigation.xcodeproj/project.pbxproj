@@ -13,6 +13,7 @@
 		AF3F92A91E490DB80064A524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3F92A81E490DB80064A524 /* Assets.xcassets */; };
 		AF3F92AC1E490DB80064A524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3F92AA1E490DB80064A524 /* LaunchScreen.storyboard */; };
 		AF3F92B51E490F4E0064A524 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3F92B41E490F4D0064A524 /* MapKit.framework */; };
+		AF3F92B71E4916740064A524 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3F92B61E4916740064A524 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AF3F92AB1E490DB80064A524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF3F92AD1E490DB80064A524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF3F92B41E490F4D0064A524 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF3F92B61E4916740064A524 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AF3F92A81E490DB80064A524 /* Assets.xcassets */,
 				AF3F92AA1E490DB80064A524 /* LaunchScreen.storyboard */,
 				AF3F92AD1E490DB80064A524 /* Info.plist */,
+				AF3F92B61E4916740064A524 /* DetailViewController.swift */,
 			);
 			path = SearchinNavigation;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3F92B71E4916740064A524 /* DetailViewController.swift in Sources */,
 				AF3F92A41E490DB80064A524 /* ViewController.swift in Sources */,
 				AF3F92A21E490DB80064A524 /* AppDelegate.swift in Sources */,
 			);
